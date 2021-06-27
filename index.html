@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <title>Document</title>
+  <style>
+    @media (min-width: 1200px) {
+      .left {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 100px 200px 100px;
+        border-color: transparent transparent #ffffff transparent;
+
+        transform: rotate(225deg);
+  
+        position: absolute;
+        left: 430px;
+        bottom: 170px;
+        
+        box-shadow: 0px 15px 10px -15px #111;
+      }
+      .right {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 100px 200px 100px;
+        border-color: transparent transparent #fff transparent;
+
+        transform: rotate(45deg);
+  
+        position: absolute;
+        right: 430px;
+        top: 170px;
+        
+        box-shadow: 0px 15px 10px -15px #111;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container-fluid d-flex justify-content-center align-items-center p-0 vh-100">
+    
+      <div class="col-12 col-lg-5 p-0">
+          <div class="card flex-lg-row shadow">
+            <div class="card-header d-flex justify-content-center align-items-center py-4 bg-dark">
+              <img src="./images/fire.png" style="width: 200px;">
+            </div>
+            <div class="card-body px-5">
+              <h5 class="card-subtitle pt-5">Front-End Designer</h5>
+              <h1 class="card-title">Chester Yang</h1>
+              <h3 class="card-subtitle pb-5">泰 山 職 訓 局</h3>
+              <p class="card-text mt-3">地址：新北市泰山區貴子里致遠新村55之1號<br>
+              電話：02-2901-8274<br>
+              E-Mail：Chester@example.cc<br>
+              網站：http://www.Chester.com.tw</p>
+            </div>
+          </div>
+      </div>
+      
+      <div class="left"></div>
+      <div class="right"></div>
+  </div>
+  <script src="./js/jquery-3.6.0.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
